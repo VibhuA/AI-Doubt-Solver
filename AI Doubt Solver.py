@@ -26,7 +26,7 @@ YOUR CORE MISSION:
 """
 
 model = genai.GenerativeModel(
-    model_name='gemini-3-flash',
+    model_name='gemini-2.5-flash',
     system_instruction=SYSTEM_INSTRUCTION
 )
 

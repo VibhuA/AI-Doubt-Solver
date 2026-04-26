@@ -5,7 +5,7 @@ import google.generativeai as genai
 # 1. AI SETUP (Gemini 2.5 Flash)
 # ==========================================
 # Replace with your actual key from Google AI Studio
-genai.configure(api_key="YOUR_API_KEY_HERE")
+genai.configure(api_key="AIzaSyBmQ5hVHo2WZdK2SUvrUvHW-YNEMkDguEk")
 
 MATH_SYSTEM_PROMPT = """
 You are the 'HFS Math Specialist', an elite tutor for ICSE Class 8 and 9. 

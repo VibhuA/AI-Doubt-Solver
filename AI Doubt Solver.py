@@ -17,8 +17,9 @@ YOUR CORE PROTOCOL:
 4. LaTeX: Use $$ for block equations and $ for inline math. 
 """
 
+# Instead of just the name, use the full path for v1beta
 model = genai.GenerativeModel(
-    model_name='gemini-2.5-flash',
+    model_name='models/gemini-2.5-flash', # Adding 'models/' can help
     system_instruction=MATH_SYSTEM_PROMPT
 )
 

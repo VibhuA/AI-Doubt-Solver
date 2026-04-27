@@ -6,7 +6,7 @@ import google.generativeai as genai
 # ==========================================
 # ⚠️ SECURITY ALERT: Remove your API key before pushing to GitHub! 
 # Use st.secrets instead for safety.
-genai.configure(api_key="AIzaSyB2LzyTw_nzBVkj8RIQoeB5QSUcBmKpxj0")
+genai.configure(api_key="AIzaSyCNO04rYbInbmD1voOjdjvek25oYPq8S5I")
 
 # Updated System Prompt with strict ICSE Marking Scheme instructions
 MATH_SYSTEM_PROMPT = """
